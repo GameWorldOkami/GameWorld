@@ -1,0 +1,14 @@
+/*真ん中にテトリスの盤を表示させるためのスタイルシート.*/
+canvas{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+/*ポイントを左下に表示するためのスタイルシート.*/
+point{
+    display: block;
+    height: 20px;
+    width: 200px;
+    border: 1px solid black;
+}

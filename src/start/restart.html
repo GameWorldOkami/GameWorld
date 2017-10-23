@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Tetris restart</title>
+		<link rel="stylesheet" href="./style_restart.css"></link>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function restart(){
+				ret = confirm("テトリスを続けますか？");
+				if(ret == true){
+					location.href = "../tetoris/index.html";
+				}
+			}
+			function finish(){
+				location.href = "./startgamen.html";
+			}
+		</script>
+		<titl>
+			<h1>lose</h1><br>
+		</titl>
+		<but>
+			テトリス再開：<input type="button" value="再開" onclick="restart()"><br>
+			テトリス終了：<input type="button" value="終了" onclick="finish()"><br>
+		</but>
+		<point>
+		<script src='C:/Users/e12301/javascript/tetoris/js/point.js'></script>
+		</point>
+	</body>
+<html>

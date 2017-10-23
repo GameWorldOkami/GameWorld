@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<!meta charset="UTF-8">
+		<title>ゲームの世界</title>
+	</head>
+    <body >
+    	<script type="text/javascript">
+    		function web(x){
+    			switch(x){
+    			case 1:    				
+    				location.href="../tetoris/index.html";
+    				break;
+    			case 2:
+    				location.href="https://www.yahoo.co.jp/";
+    				break;
+    			case 3:
+    				location.href="https://www.amazon.co.jp/";
+    				break;
+    			case 4:
+    				location.href="https://www.youtube.com/?gl=JP&hl=ja";
+    				break;
+    			case 5:
+    				location.href="https://www.rakuten.co.jp/";
+    			case 6:
+    				location.href="C:/Users/e12301/javascript/jabascript.html";	
+				default:
+					break;
+				}
+			}
+    		document.write("ゲームの世界 <br>".fontsize(6));
+    		document.write("ゲームの世界へようこそ<br>");
+    		document.write("好きなゲームにタッチしてね<br>");
+    		
+    	</script>
+		<img name="tetoris" width = 120 height= 80 src="./image/tetoris.jpg" onclick="web(1)">
+		<img name="yahoo" width = 100 height= 100 src="yahoo.png" onclick="web(2)">
+		<img name="amazon" width = 100 height= 80 src="amazon.png" onclick="web(3)">
+		<img name="youtube" width = 100 height= 80 src="youtube.png" onclick="web(4)">
+		<img name="rakuten" width = 100 height= 80 src="rakuten.png" onclick="web(5)">
+		<img name="other" width = 100 height= 80 src="other.jpg" onclick="web(6)">
+		<!input type="button" value="click here" onclick="alert('ボタンがクリックされました.')">
+		<!input type="button" value="ボタン" onclick="javascript()"><br>
+	</body>
+</html>

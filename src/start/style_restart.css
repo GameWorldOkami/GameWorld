@@ -1,0 +1,18 @@
+body {
+    background: #9999FF;
+}
+
+titl {
+    display:block;
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px auto;
+    background: #66FFFF;
+    width: 300px;
+    padding: 10px;
+}
+
+but {
+    background:#FFFFFF;
+    width:300px;
+}
